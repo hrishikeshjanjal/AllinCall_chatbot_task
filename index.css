@@ -45,7 +45,7 @@ button{
 	color: white;
 	/*border:1px solid black;*/
 	border-radius: 15px!;
-	min-width: 260px;
+	min-width: 400px;
 	min-height: 650px;
 	position: relative;
 	background-color: white;
@@ -106,6 +106,7 @@ button{
 
 .lower{
 	position: relative;
+	min-height:400px;
 	z-index: 10;
 	margin: 20px;
 	border-bottom-left-radius: 25px;
@@ -172,10 +173,11 @@ button{
 
 /*styling the message center input text*/
 .messageCenter{
-	position: fixed;
-	bottom: 10%;
+	position: absolute;
+	bottom: 0;
 	width: 300px;
-		
+		padding-bottom: 10px;
+	margin-bottom: 10px;
 	border:1px solid lightgray;
 	border-radius: 5px;
 }
@@ -184,6 +186,7 @@ button{
 	height: 30px;
 	margin-left: 50px;
 	margin-top: 5px;
+
 }
 
 #message{
