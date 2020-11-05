@@ -1,26 +1,5 @@
-// function openChat() {
-//   // document.getElementById("click").style.display = "block";
-//   console.log("Chat opened");
-//  document.getElementByClass("container").style.visibility = "visible";
-   
-// }
 
-// function closeChat() {
-// 	 console.log("Chat closed");
-//   // document.getElementById("click").style.display = "none";
-//   document.getElementByClass("container").style.visibility = "hidden";
-  
-// }
-
-// function showHide() {
-//   var x = document.getElementById("click1");
-//   if (x.style.visibility === "hidden") {
-//     x.style.visibility = "visible";
-//   } else {
-//     x.style.visibility = "hidden";
-//   }
-// }
-
+//function to show the questions section and is triggered after clicking on chatbot option at bottom right corner
 function show() {
   var x = document.getElementById("click1");
 
@@ -37,6 +16,7 @@ function show() {
     y.style.visibility = "visible";
 }
 
+//function to hide the questions section and is triggered after clicking on chatbot option at bottom right corner
 function hide() {
   var x = document.getElementById("click1");
   if (x.style.visibility === "visible") {
@@ -53,12 +33,4 @@ function hide() {
     y.style.visibility = "hidden";
 }
 
-
-// $(document).ready(function(){
-//   $(".click").click(function(){
-//     $("").hide();
-//   });
-//   $(".close").click(function(){
-//     $("p").show();
-//   });
-// });
+//Hrishikesh Janjal
