@@ -159,8 +159,13 @@ button{
 	color: orange;
 }
 
+.list_item:hover{
+	box-shadow: 0 10px 10px 0 lightgray;
+}
+
 #mark{
 	color: orange;
+	padding-left: 5px;
 }
 
 #questmark{
@@ -180,8 +185,15 @@ button{
 	margin-bottom: 10px;
 	border:1px solid lightgray;
 	border-radius: 5px;
+	margin-left: 1rem;
 }
+.messageCenter:hover{
+	box-shadow: 0 10px 10px 0 lightgray;
+
+}
+
 .messageCenter>img{
+	/*align-items: center;*/
 	width: 20px;
 	height: 30px;
 	margin-left: 50px;
@@ -195,6 +207,8 @@ button{
     border: 0px solid;
      color: #CCC;
 }
+
+
 
 #close_btn{
 	cursor: pointer;
